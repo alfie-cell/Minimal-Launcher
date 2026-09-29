@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="8dp">
+
+        <LinearLayout
+            android:id="@+id/row_default_home"
+            style="@style/SettingsRow">
+            <TextView
+                style="@style/SettingsTitle"
+                android:text="@string/pref_default_home" />
+            <TextView
+                android:id="@+id/default_home_summary"
+                style="@style/SettingsSummary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row_calendar"
+            style="@style/SettingsRow">
+            <TextView
+                style="@style/SettingsTitle"
+                android:text="@string/pref_calendar" />
+            <TextView
+                style="@style/SettingsSummary"
+                android:text="@string/pref_calendar_summary" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/switch_agenda"
+            style="@style/SettingsSwitch"
+            android:text="@string/pref_agenda" />
+
+        <LinearLayout
+            android:id="@+id/row_agenda_rows"
+            style="@style/SettingsRow">
+            <TextView
+                style="@style/SettingsTitle"
+                android:text="@string/pref_agenda_rows" />
+            <TextView
+                android:id="@+id/agenda_rows_summary"
+                style="@style/SettingsSummary" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/switch_agenda_scroll"
+            style="@style/SettingsSwitch"
+            android:text="@string/pref_agenda_scroll" />
+
+        <Switch
+            android:id="@+id/switch_keyboard"
+            style="@style/SettingsSwitch"
+            android:text="@string/pref_auto_keyboard" />
+
+        <LinearLayout
+            android:id="@+id/row_hidden"
+            style="@style/SettingsRow">
+            <TextView
+                style="@style/SettingsTitle"
+                android:text="@string/pref_hidden_apps" />
+            <TextView
+                android:id="@+id/hidden_summary"
+                style="@style/SettingsSummary" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/SettingsRow">
+            <TextView
+                style="@style/SettingsTitle"
+                android:text="@string/pref_version" />
+            <TextView
+                android:id="@+id/version_summary"
+                style="@style/SettingsSummary" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<resources>
+    <!-- Drawer grid shows the cached icon scaled down to this size. -->
+    <dimen name="drawer_icon_size">53dp</dimen>
+    <!-- Target drawer grid cell width; column count is derived from screen width. -->
+    <dimen name="drawer_cell_width">90dp</dimen>
+    <!-- Icons are rendered and cached once, at the largest size shown (drawer 53dp, dock 52dp). -->
+    <dimen name="icon_render_size">56dp</dimen>
+    <dimen name="dock_cell_height">64dp</dimen>
+    <dimen name="dock_cell_padding">6dp</dimen>
+    <dimen name="home_gutter">28dp</dimen>
+    <!-- Upcoming events under the date: 3 rows visible, the rest scroll. -->
+    <dimen name="agenda_row_height">28dp</dimen>
+</resources>

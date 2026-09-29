@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One upcoming event under the date: colour dot, time label, title. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/agenda_row_height"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/agenda_dot"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:background="@drawable/agenda_dot"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/agenda_label"
+        style="@style/HomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:importantForAccessibility="no"
+        android:singleLine="true"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/agenda_title"
+        style="@style/HomeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:importantForAccessibility="no"
+        android:singleLine="true"
+        android:textSize="14sp" />
+</LinearLayout>

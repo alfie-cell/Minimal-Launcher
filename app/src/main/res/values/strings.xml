@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Minimal</string>
+    <string name="settings_label">Minimal settings</string>
+    <string name="search_hint">Search</string>
+    <string name="no_results">No matching apps</string>
+    <string name="home_hint">Swipe up for all apps.\nLong-press an app to add it here.</string>
+    <string name="open_apps">Open apps</string>
+    <string name="home_menu">Home options</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="launcher_settings">Launcher settings</string>
+    <string name="system_settings">Android settings</string>
+    <string name="add_to_home">Add to home</string>
+    <string name="remove_from_home">Remove from home</string>
+    <string name="app_info">App info</string>
+    <string name="hide_app">Hide</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="move_left">Move left</string>
+    <string name="move_right">Move right</string>
+    <string name="cannot_open">Can’t open this app</string>
+    <string name="app_hidden">Hidden. Unhide it in launcher settings.</string>
+    <plurals name="home_full">
+        <item quantity="one">Home holds up to %d app</item>
+        <item quantity="other">Home holds up to %d apps</item>
+    </plurals>
+
+    <string name="agenda_now">Now</string>
+    <string name="agenda_tomorrow">Tomorrow</string>
+    <string name="agenda_all_day">All day</string>
+    <string name="agenda_hint">Show calendar events</string>
+    <string name="agenda_hidden">Turn events back on in launcher settings</string>
+    <string name="pref_agenda">Show upcoming events</string>
+    <string name="pref_agenda_rows">Events shown</string>
+    <plurals name="pref_agenda_rows_summary">
+        <item quantity="one">%d event before scrolling</item>
+        <item quantity="other">%d events before scrolling</item>
+    </plurals>
+    <plurals name="pref_agenda_rows_summary_noscroll">
+        <item quantity="one">%d event, the rest hidden</item>
+        <item quantity="other">%d events, the rest hidden</item>
+    </plurals>
+    <string name="pref_agenda_scroll">Scroll for more events</string>
+
+    <string name="today">Today</string>
+    <string name="agenda_title">Upcoming</string>
+    <string name="agenda_calendar_app">Calendar app</string>
+    <string name="agenda_empty">Nothing coming up</string>
+    <string name="agenda_no_permission">Allow calendar access from the home screen to see events</string>
+
+    <string name="event_not_found">This event no longer exists</string>
+    <string name="event_untitled">(No title)</string>
+    <string name="event_repeats">Repeats</string>
+    <string name="event_occurrence_changed">This occurrence was changed from the series</string>
+    <string name="event_next">Next: %s</string>
+    <string name="event_join">Join meeting</string>
+    <string name="event_details">Details</string>
+    <string name="event_people">People</string>
+    <string name="event_organizer">Organiser</string>
+    <string name="event_accepted">Accepted</string>
+    <string name="event_declined">Declined</string>
+    <string name="event_tentative">Maybe</string>
+    <string name="event_open_calendar">Open in calendar app</string>
+    <string name="event_reminders_off">Reminders are off (Settings → Calendar &amp; reminders)</string>
+
+    <string name="reminder_channel">Event reminders</string>
+    <string name="reminder_snooze">Snooze 10 min</string>
+    <string name="reminder_dismiss">Dismiss</string>
+    <string name="reminder_in_minutes">In %d min</string>
+    <string name="reminder_in_hours">In %1$d h %2$d min</string>
+    <string name="reminder_none">None</string>
+    <string name="reminder_at_start">At start</string>
+    <string name="reminder_minutes_before">%d min before</string>
+    <plurals name="reminder_hours_before">
+        <item quantity="one">%d hour before</item>
+        <item quantity="other">%d hours before</item>
+    </plurals>
+    <plurals name="reminder_days_before">
+        <item quantity="one">%d day before</item>
+        <item quantity="other">%d days before</item>
+    </plurals>
+    <string name="reminder_allday_on_day">%s on the day</string>
+    <string name="reminder_allday_day_before">%s the day before</string>
+    <string name="reminder_allday_prefix">All-day: %s</string>
+    <string name="reminder_timed_title">Reminders</string>
+    <string name="reminder_custom">Custom…</string>
+    <string name="reminder_custom_title">Custom reminder</string>
+    <string name="reminder_use_default">Default</string>
+    <string name="reminder_on_the_day">On the day</string>
+    <string name="reminder_the_day_before">The day before</string>
+    <string name="reminder_unit_minutes">min</string>
+    <string name="reminder_unit_hours">hours</string>
+    <string name="reminder_unit_days">days</string>
+    <string name="save">Save</string>
+    <string name="event_edit_reminders">Edit reminders</string>
+    <string name="event_sound">Sound</string>
+    <string name="event_scope_title">Change for</string>
+    <string name="event_scope_this">This event only</string>
+    <string name="event_scope_series">All events in the series</string>
+    <string name="event_sound_choose">Choose a sound…</string>
+    <string name="event_sound_calendar">Use the calendar\'s sound</string>
+    <string name="event_reminders_label">Reminders: %s</string>
+    <string name="event_reminder_source_occurrence">Set for this event</string>
+    <string name="event_reminder_source_series">Set for the whole series</string>
+    <string name="event_reminder_source_event">From the event</string>
+    <string name="event_reminder_source_calendar">%s default</string>
+    <string name="event_sound_label">Sound: %s</string>
+    <string name="reminder_allday_title">All-day events</string>
+    <string name="reminder_sound_title">Sound</string>
+    <string name="reminder_sound_default">Default sound</string>
+    <string name="reminder_sound_silent">Silent</string>
+    <string name="reminder_sound_custom">Custom sound</string>
+
+    <string name="pref_calendar">Calendar &amp; reminders</string>
+    <string name="pref_calendar_summary">Reminder times and sounds for each calendar</string>
+    <string name="pref_reminders">Event reminders</string>
+    <string name="pref_reminders_summary">Notifications before events, with a sound per calendar. Events that have their own reminders (e.g. Outlook invites) use those.</string>
+    <string name="pref_system_calendar_notifications">Phone calendar notifications</string>
+    <string name="pref_system_calendar_notifications_summary">Turn these off to avoid getting reminders twice</string>
+    <string name="pref_calendars_header">Calendars</string>
+    <string name="pref_calendars_empty">No calendars yet. Allow calendar access from the home screen.</string>
+
+    <string name="pref_default_home">Default home app</string>
+    <string name="pref_default_home_on">Minimal is your home app</string>
+    <string name="pref_default_home_off">Tap to make Minimal your home app</string>
+    <string name="pref_auto_keyboard">Open keyboard with app drawer</string>
+    <string name="pref_hidden_apps">Hidden apps</string>
+    <plurals name="pref_hidden_count">
+        <item quantity="one">%d app hidden</item>
+        <item quantity="other">%d apps hidden</item>
+    </plurals>
+    <string name="pref_hidden_none">None</string>
+    <string name="pref_version">Version</string>
+    <string name="hidden_apps_hint">Untick an app to show it again</string>
+    <string name="done">Done</string>
+</resources>

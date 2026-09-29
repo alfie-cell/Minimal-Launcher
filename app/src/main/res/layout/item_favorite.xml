@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- contentDescription is set in code to the app label. -->
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="@dimen/dock_cell_height"
+    android:layout_weight="1"
+    android:background="?android:attr/selectableItemBackgroundBorderless"
+    android:paddingVertical="@dimen/dock_cell_padding"
+    android:scaleType="fitCenter"
+    tools:ignore="ContentDescription" />

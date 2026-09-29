@@ -1,0 +1,13 @@
+<resources>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#D9FFFFFF</color>
+    <color name="text_shadow">#80000000</color>
+    <!-- ~60% dark tint: the wallpaper shows through the drawer. -->
+    <color name="drawer_bg">#990B0B0F</color>
+    <color name="search_bg">#29FFFFFF</color>
+    <color name="row_activated">#33FFFFFF</color>
+    <color name="accent">#FF8AB4F8</color>
+    <color name="icon_bg">#FF16161A</color>
+    <!-- Full-screen pages (event, agenda): the drawer's near-black, opaque. -->
+    <color name="page_bg">#FF0E0E11</color>
+</resources>

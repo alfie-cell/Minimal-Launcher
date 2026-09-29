@@ -1,0 +1,4 @@
+<resources>
+    <item name="action_open_drawer" type="id" />
+    <item name="action_home_menu" type="id" />
+</resources>

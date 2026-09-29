@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Back up favourites, hidden apps and toggles; launch counts are device-specific noise. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="launcher.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="launcher.xml" />
+    </device-transfer>
+</data-extraction-rules>
